@@ -1,0 +1,311 @@
+/*navbar*/
+.navbar-brand {
+	font-family: viga;
+	font-size: 32px;
+}
+
+.content h1, h5, h3 {
+	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+
+}
+
+.content span {
+color: blue;
+
+
+}
+
+
+.content {
+	padding-top: 100px;
+	}
+
+.content p {
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 550;
+	color: #888888;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) ;
+}
+
+.tombol {
+font-family: 'Poppins', sans-serif;
+font-size: 13px;
+margin-top: 8px !important;
+margin-bottom: 8px !important;
+border-radius: 6px;
+}
+
+#button {
+	position: fixed;
+	top: 465px;
+	bottom: 20px;
+    right: 5px;
+	z-index: 1;
+}
+
+#button .fa-chevron-circle-up {
+	color: #f26f77;
+	font-size: 40px;
+	left: 15%;
+
+
+}
+
+
+
+
+.home-right img {
+	display: none;
+}
+.section-home {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#ccdaff));
+  background: linear-gradient(#ffff 0%, #ccdaff 100%);
+  min-height: 400px;
+
+} 
+.section-logo{ 
+margin-top:  30px;
+min-height: 420px;
+}
+
+.btn-primary {
+	opacity: 0;
+    transform: translate(0, 100px) ;
+    transition: 2s;
+}
+
+.btn-primary.muncul {
+	   opacity: 1;
+        transform: translate(0,0);
+}
+
+.pKiri{
+	opacity: 0;
+	transform: translate(-50px, 0);
+	transition: 1s;
+}
+
+.pKiri.pMuncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+/*menghilangkan dan menampilkan logo */
+.section-logo .logo {
+
+	opacity: 0;
+	transform: translate(0, 200px);
+	transition: 0.9s;
+
+}
+
+
+.section-logo .logo.muncul {
+
+	opacity: 1;
+	transform: translate(0,0);
+
+}
+
+
+.section-education{
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#ccdaff));
+  background: linear-gradient(#ffff 0%, #ccdaff 100%);
+  min-height: 500px;
+}
+	
+
+.main-title h2 {
+	text-transform: uppercase;
+	font-family: viga;
+	font-size: 25px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.logo img {	
+	border: none;
+	width: 150px;
+	margin-right: 10px;
+	margin-top: 15px;
+	border-radius: 15px;
+	box-shadow: 7px 7px 9px #eaeaea;
+}
+.card-edu h6 {
+		font-size: 30px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+
+}
+
+.section-portpolio {
+	background: linear-gradient(#ffff 0%, #ccdaff 100%);
+    min-height: 880px;
+ 
+}
+ 
+.card-body h4 {
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-weight: 700;
+}
+
+.card-body p {
+	font-size: 13px;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	
+
+}
+.section-footer {
+	background-color: #1E3771;
+	min-height: 270px;
+	padding-top: 40px;
+}
+
+.title h5 {
+	font-size: 18px;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+
+.section-portpolio h2 {
+	text-transform: uppercase;
+	font-family: viga;
+	font-size: 25px;
+}
+.title .nama li, .link  {
+	font-size: 14px;
+	color: #c3c3c3;
+	font-family: 'Poppins', sans-serif;
+
+}
+.footer-text {
+	font-size: 12px;
+	color: #c3c3c3;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+ .sosial-media i, .wa {
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+	color: #c3c3c3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Desktop version*/
+@media (min-width: 992px) { 
+
+.nav-link {
+	text-transform: uppercase;
+	margin-right: 30px;
+	font-weight: 500;
+}
+
+.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 3px solid #0B63DC;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+
+}
+
+.content {
+	padding-top: 100px;
+}
+
+.home-right img {
+	width: 400px;
+	margin-top: -37px;
+	display: block;
+
+}
+.content h1, h5, h3 {
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+.content p {
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: #888888;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) ;
+}
+
+.section-home {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#ccdaff));
+  background: linear-gradient(#ffff 0%, #ccdaff 100%);
+  min-height: 500px;
+
+} 
+.main-title h2 {
+	text-transform: uppercase;
+	font-family: viga;
+	margin-bottom: 40px;
+	
+}
+
+.logo img {
+	border: none;
+	margin-right: 10px;
+	margin-top: 15px;
+	overflow: hidden;
+	border: none;
+	width: 140px;
+	margin-right: 10px;
+	margin-top: 15px;
+	border-radius: 15px;
+	box-shadow: 7px 7px 9px #eaeaea;
+
+}
+
+
+.card-edu {
+	margin-top: 17px;
+	border-radius: 15px;
+	box-shadow: 0px 4px 10px #0e7987;;
+
+
+}
+.section-portpolio {
+	background: linear-gradient(#ffff 0%, #ccdaff 100%);
+    min-height: 550px;
+
+}
+.title h5 {
+	font-size: 23px;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+
+
+
+
+
+}
+/*@media (min-width: 576px) {
+	.home-right img {
+		overflow: hidden !important;
+	}
+}*/
