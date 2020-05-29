@@ -54,21 +54,19 @@ border-radius: 6px;
 
 }
 
-
-
-
 .home-right img {
 	display: none;
+	padding-top: 17%;
+	padding-right: 10px;
 }
 .section-home {
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#ccdaff));
-  background: linear-gradient(#ffff 0%, #ccdaff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#c4d3fc));
+  background: linear-gradient(#ffff 0%, #c4d3fc 100%);
   min-height: 400px;
 
 } 
 .section-logo{ 
 margin-top:  30px;
-min-height: 420px;
 }
 
 .btn-primary {
@@ -93,7 +91,7 @@ min-height: 420px;
 	transform: translate(0,0);
 }
 
-/*menghilangkan dan menampilkan logo */
+/* menghilangkan dan menampilkan logo */
 .section-logo .logo {
 
 	opacity: 0;
@@ -110,6 +108,84 @@ min-height: 420px;
 
 }
 
+.wave {
+	margin-top: -10px;
+	overflow-X: hidden;
+}
+
+
+.services {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 10px;
+	margin-bottom: 50px;
+	
+
+}
+
+.service {
+	background-color: rgb(255, 255, 255);
+	padding: 15px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 10px 27px 0px rgba(154, 161, 171, 0.18);
+	margin-right: 13px;
+	transition: ease-in-out, 1s;
+
+	
+
+}
+
+
+
+
+
+.icons img {
+	width: 80px;
+	margin-top: 10px;
+}
+.service h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 1.3em;
+	margin-top: 30px;
+}
+
+
+.row-logo {
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0px auto;
+	max-width: 50.625rem;
+	
+	
+	
+
+}
+
+.logo {
+	background-image: url(../img/diamond-shape.svg);
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	margin:auto;
+	
+}
+
+.logo img {
+	width: 80px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	
+}
+
+
+
 
 .section-education{
   background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#ccdaff));
@@ -117,7 +193,6 @@ min-height: 420px;
   min-height: 500px;
 }
 	
-
 .main-title h2 {
 	text-transform: uppercase;
 	font-family: viga;
@@ -126,19 +201,23 @@ min-height: 420px;
 	margin-bottom: 70px;
 }
 
-.logo img {	
-	border: none;
-	width: 150px;
-	margin-right: 10px;
-	margin-top: 15px;
-	border-radius: 15px;
-	box-shadow: 7px 7px 9px #eaeaea;
-}
-.card-edu h6 {
-		font-size: 30px;
-		font-family: 'Poppins', sans-serif;
-		font-weight: 600;
+.card-edu {
+	box-sizing: border-box;
+	background-color: #fdfdfd;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(129, 123, 123, 0.50);
+	margin-top: 3px;
+	
 
+}
+
+.card-header {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #100303;
+	background-color: #fdfdfd;
+	
 }
 
 .section-portpolio {
@@ -201,18 +280,45 @@ min-height: 420px;
 
 }
 
+.about-me {
+	margin: auto;
+	width: 250px;
+	box-sizing: border-box;
+	
+}
+
+.about-me img {
+	margin:auto 1px;
+	width: 200px;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(129, 123, 123, 0.993);
+	
+}
+
+
+.title h2 {
+	text-transform: uppercase;
+	font-family: viga;
+	font-size: 20px;
+	margin-top: 60px;
+	
+}
+
+.about-profil p {
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #888888;
+	line-height: 25.8px;
+	text-align: left
+}
 
 
 
-
-
-
-
-
-
-
+ 
 /*Desktop version*/
-@media (min-width: 992px) { 
+ @media (min-width: 992px) { 
 
 .nav-link {
 	text-transform: uppercase;
@@ -255,57 +361,86 @@ min-height: 420px;
 }
 
 .section-home {
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#ccdaff));
-  background: linear-gradient(#ffff 0%, #ccdaff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffff), to(#c4d3fc));
+  background: linear-gradient(#ffff 0%, #c4d3fc 100%);
   min-height: 500px;
 
 } 
 .main-title h2 {
 	text-transform: uppercase;
 	font-family: viga;
-	margin-bottom: 40px;
+	margin-top: 50px;
 	
 }
 
-.logo img {
-	border: none;
-	margin-right: 10px;
-	margin-top: 15px;
-	overflow: hidden;
-	border: none;
-	width: 140px;
-	margin-right: 10px;
-	margin-top: 15px;
-	border-radius: 15px;
-	box-shadow: 7px 7px 9px #eaeaea;
-
-}
-
-
-.card-edu {
-	margin-top: 17px;
-	border-radius: 15px;
-	box-shadow: 0px 4px 10px #0e7987;;
-
-
-}
-.section-portpolio {
-	background: linear-gradient(#ffff 0%, #ccdaff 100%);
-    min-height: 550px;
-
-}
-.title h5 {
-	font-size: 23px;
-	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
-
-
-
-
-
-}
-/*@media (min-width: 576px) {
-	.home-right img {
-		overflow: hidden !important;
+	.card-edu {
+		box-sizing: border-box;
+		background-color: #fdfdfd;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(129, 123, 123, 0.50);
+		margin-top: 30px;
+		
+	
 	}
-}*/
+
+	.card-header {
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+		color: #100303;
+		background-color: #fdfdfd;
+		
+	}
+
+
+
+
+	.section-portpolio {
+		background: linear-gradient(#ffff 0%, #ccdaff 100%);
+		min-height: 550px;
+	
+	}
+	.title h5 {
+		font-size: 23px;
+		color: #ffffff;
+		font-family: 'Poppins', sans-serif;
+	
+	}
+
+	.service:hover{
+		transform: scale(1.1);
+		
+	
+	} 
+
+	.about-me img {
+	margin:auto 1px;
+	width: 280px;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(129, 123, 123, 0.993);
+	
+}
+
+	.title h2 {
+		text-transform: uppercase;
+		font-family: viga;
+		font-size: 20px;
+		margin-bottom: 30px;
+		
+	}
+
+	.about-profil {
+		margin-top: -15px;
+	}
+
+	.about-profil p {
+		font-size: 15px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: normal;
+		color: #888888;
+		line-height: 25.8px;
+		text-align: center;
+	}
+}
+

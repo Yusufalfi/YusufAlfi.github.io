@@ -1,0 +1,17 @@
+<svg width="117" height="110" viewBox="0 0 117 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M117 55C117 85.0995 90.8087 109.5 58.5 109.5C26.1913 109.5 0 85.0995 0 55C0 24.9005 26.1913 0.5 58.5 0.5C90.8087 0.5 117 24.9005 117 55Z" fill="#CCDAFF"/>
+<line x1="38.5" y1="77" x2="38.5" y2="82" stroke="black"/>
+<line x1="67.3832" y1="67.393" x2="71.0821" y2="77.5082" stroke="black"/>
+<line x1="45.5528" y1="77.7764" x2="50.5528" y2="67.7764" stroke="black"/>
+<line x1="80.5" y1="77" x2="80.5" y2="82" stroke="black"/>
+<line x1="38" y1="77.5" x2="80" y2="77.5" stroke="black"/>
+<line x1="38" y1="81.5" x2="80" y2="81.5" stroke="black"/>
+<rect x="28.5" y="26.5" width="63" height="41" rx="4.5" fill="#CCDAFF" stroke="black"/>
+<path d="M41.5 36.5H49.5V43.5H41.5V36.5Z" fill="#D5DFFA" stroke="black"/>
+<path d="M29 55H91" stroke="black"/>
+<ellipse cx="60" cy="62.5" rx="2" ry="1.5" fill="black"/>
+<g style="mix-blend-mode:darken">
+<path d="M45.5 36C45.5 38.4415 43.3073 40.5 40.5 40.5C37.6927 40.5 35.5 38.4415 35.5 36C35.5 33.5585 37.6927 31.5 40.5 31.5C43.3073 31.5 45.5 33.5585 45.5 36Z" stroke="black"/>
+</g>
+<line x1="38" y1="81.5" x2="80" y2="81.5" stroke="black"/>
+</svg>

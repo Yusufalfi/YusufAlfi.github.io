@@ -20,7 +20,7 @@ $('.page-scroll').on('click', function(e) {
 
 });
 
-//about
+about
 $(window).on('load', function(){
 	$('.pKiri').addClass('pMuncul');
 	   $('.btn-primary').addClass('muncul');
